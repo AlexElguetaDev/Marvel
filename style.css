@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: 0;
+    /* background-color: #131f37; */
 }
 
 :root{
@@ -18,14 +19,13 @@
 .banner .box{
     position: relative;
     background-color: #131f37;
-    max-height: 100vh;
 }
 
 header{
     position: absolute;
     top: 0;
     left: 0;
-    width: 85%;
+    width: 60%;
     padding: 20px 60px;
     display: flex;
     justify-content: space-between;
@@ -104,9 +104,6 @@ header ul li a:hover{
 }
 
 @media(max-width: 980px){
-    .banner{
-        grid-template-columns: 1fr;
-    }
     header{
         padding: 20px 40px;
     }
@@ -116,14 +113,9 @@ header ul li a:hover{
 }
 
 @media(max-width: 600px){
-    header{
-        width: 60%;
-    }
     .banner .contentBox img{
-        position: absolute;
-        top: 100px;
-        left: 0px;
-        width: 450px;
+        position: relative;
+        width: 300px;
     }
     header ul{
         position: absolute;
