@@ -116,15 +116,21 @@ header ul li a:hover{
 }
 
 @media(max-width: 600px){
-    .banner .image img{
-        object-fit: cover;
+    .banner .contentBox img{
+        position: absolute;
+        top: 40px;
+        left: 0px;
     }
     header ul{
         position: relative;
-        left: -100px;
     }
     .banner .content .contentBox .btn{
         display: block ;
+        width: 100%;
+        text-align: left;
+    }
+    .banner .content .contentBox p{
+        text-align: left;
     }
 }
 /* .banner .content .contentBox .btn::before{
