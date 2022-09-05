@@ -112,7 +112,7 @@ header ul li a:hover{
     }
 }
 
-@media(max-width: 600px){
+@media(max-width: 650px){
     .banner .contentBox img{
         position: relative;
         width: 300px;
