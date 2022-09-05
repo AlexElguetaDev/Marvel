@@ -116,6 +116,9 @@ header ul li a:hover{
 }
 
 @media(max-width: 600px){
+    header{
+        width: 60%;
+    }
     .banner .contentBox img{
         position: absolute;
         top: 100px;
@@ -123,7 +126,8 @@ header ul li a:hover{
         width: 450px;
     }
     header ul{
-        position: relative;
+        position: absolute;
+        left: 200px;
     }
     .banner .content .contentBox .btn{
         display: block ;
